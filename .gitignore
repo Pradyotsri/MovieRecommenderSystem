@@ -1,0 +1,51 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ================================
+# Virtual Environment (DO NOT COMMIT)
+# ================================
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# OS / Editor junk
+# ================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# ================================
+# Secrets (IMPORTANT)
+# ================================
+.env
+*.key
+
+# ================================
+# Streamlit
+# ================================
+.streamlit/secrets.toml
+
+# ================================
+# Optional: Ignore large raw datasets
+# (UNCOMMENT if repo size becomes large)
+# ================================
+# data/*.csv
